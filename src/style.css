@@ -1,0 +1,51 @@
+
+.active{
+    display: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+}
+
+li{
+
+    padding: 1px 6px;
+    border-width: 2px;
+    
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    width:40% ;
+
+}
+
+.dropMenu{
+    all: unset;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    padding: 5px 10px;
+    
+    /* Ensure the button behaves like a block element */
+    display: inline-block;
+    
+    /* Improve text readability */
+    text-align: center;
+    
+    /* Prevent text selection */
+    user-select: none;
+    
+    /* Ensure the button is still recognizable as interactive */
+    button:focus {
+      outline: 0px solid black;
+    }
+    background-color: white;
+}
+
